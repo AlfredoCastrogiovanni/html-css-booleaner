@@ -1,0 +1,17 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+header {
+    background: rgb(61, 114, 176) url("../img/pattern.png");
+    height: 200px;
+    position: relative;
+}
+
+.header-logo {
+    height: 100px;
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
+}

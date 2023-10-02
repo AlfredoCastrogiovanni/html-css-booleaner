@@ -57,10 +57,6 @@ main {
     background-color: yellow;
 }
 
-.bg-blue {
-    background-color: rgb(177, 229, 242);
-}
-
 .info ul {
     margin: 10px 0;
     padding-left: 15px;
@@ -70,16 +66,39 @@ main {
     border-spacing: 0;
 }
 
-.info-table thead {
-    text-align: start;
-}
-
 .info-table th {
     width: 500px;
-}
-
-.info-table th {
+    text-align: start;
     text-align: start;
     background-color: rgb(32, 169, 229);
     color: white;
+}
+
+.bg-blue {
+    background-color: rgb(177, 229, 242);
+}
+
+.suggest-title {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.suggest-box {
+    width: 300px;
+    height: 250px;
+    margin: 10px 0;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 10px;
+    background-size: cover;
+    background-position: center;
+}
+
+.suggest1 {
+    background-image: url("../img/monitor.jpg");
+}
+
+.suggest2 {
+    background-image: url("../img/graph.jpg");
 }
